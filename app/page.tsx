@@ -1,7 +1,17 @@
-
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
+import Guide from "@/components/Guide";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <p className="ml-4 flex h-24 border-2 border-gray-300 p-3 text-gray-700 shadow-md"></p>
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
   );
 }
